@@ -2,6 +2,7 @@ myvenv/
 db.sqlite3
 __pycache__/
 media/
+.templates/
 
 # Logs
 logs
