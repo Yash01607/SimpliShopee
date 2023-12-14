@@ -38,9 +38,9 @@ const HomeScreen = () => {
     dispatch(getLatestProductListAction(1));
   }, [dispatch]);
 
-
   return (
     <>
+
       {(loadingCategories || loadingLatestProducts) && (
         <Loader>Loading ProductDetails...</Loader>
       )}

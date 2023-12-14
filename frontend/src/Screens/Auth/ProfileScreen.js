@@ -70,7 +70,7 @@ const ProfilePage = () => {
       <Row className="d-flex justify-content-between">
         <Col xs={12} md={4} className="text-center mt-5 ">
           <img
-            src="./images/user.jpg"
+            src={`${process.env.REACT_APP_BACKEND_BASE_URL}/media/product_images/user.jpeg`}
             alt="default user"
             style={{ width: "50%" }}
             className="mb-3"

@@ -1,6 +1,7 @@
 myvenv/
 __pycache__/
 .templates/
+build/
 
 # Logs
 logs
@@ -29,3 +30,4 @@ dist-ssr
 data.json
 
 fetature-to-add.txt
+.env
