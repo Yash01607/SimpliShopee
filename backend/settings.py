@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv("SECRET_KEY", default="your secret key")
-BASE_URL = os.getenv("BASE_URL", default="https://simplishopee.onrender.com/")
+# BASE_URL = os.getenv("BASE_URL", default="https://simplishopee.onrender.com/")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -175,7 +175,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "shopping_cart_app.CustomUser"
 
-MEDIA_URL = BASE_URL + "media/"
+MEDIA_URL = "media/"
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
