@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", default="your secret key")
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ["http://localhost:3000","https://qweasdzxc.pythonanywhere.com/"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:3000","https://qweasdzxc.pythonanywhere.com"]
 
 
 # Application definition
@@ -70,7 +70,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "backend.urls"
 
-CORS_ORIGIN_WHITELIST = ["http://localhost:3000","https://qweasdzxc.pythonanywhere.com/"]
+CORS_ORIGIN_WHITELIST = ["http://localhost:3000","https://qweasdzxc.pythonanywhere.com"]
 
 CORS_ORIGIN_ALLOW_ALL = True
 
